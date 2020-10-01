@@ -217,11 +217,12 @@ end
 end
 
 
-def player_stats(player)
+def player_stats(name)
   game = game_hash
   game.each do |location, t_c_p|
     t_c_p.each do |key, value|
       if key==:players
-        value.each do |players|
+        value.each do |player|
+          if name==player
   end
 end
