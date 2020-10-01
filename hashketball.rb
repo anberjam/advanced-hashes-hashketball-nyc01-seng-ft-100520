@@ -222,6 +222,6 @@ def player_stats(player)
   game.each do |location, t_c_p|
     t_c_p.each do |key, value|
       if key==:players
-        value.each do |players, info|
+        value.each do |players|
   end
 end
