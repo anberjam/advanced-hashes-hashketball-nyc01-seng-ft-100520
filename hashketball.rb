@@ -223,6 +223,6 @@ def player_stats(name)
     t_c_p.each do |key, value|
       if key==:players
         value.each do |player|
-          if name==player
+          if name==player[:player_name]
   end
 end
