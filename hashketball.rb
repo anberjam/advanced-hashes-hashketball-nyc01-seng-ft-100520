@@ -241,6 +241,7 @@ def big_shoe_rebounds
     t_c_p[:players].each do |player|
       if player[:shoe] > max
         max = player[:shoe]
+        rebounds = player[:rebounds]
       end
     end
   end
