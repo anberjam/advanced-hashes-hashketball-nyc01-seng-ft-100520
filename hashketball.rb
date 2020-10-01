@@ -238,8 +238,10 @@ def big_shoe_rebounds
   game = game_hash
   
   game.each do |location, t_c_p|
-    t_c_p[:players].each do |key, value|
-      if player[:]
+    t_c_p[:players].each do |player|
+      if player[:shoe] > max
+        max = player[:shoe]
+      end
     end
   end
   
