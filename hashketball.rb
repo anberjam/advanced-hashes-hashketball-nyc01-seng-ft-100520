@@ -220,6 +220,8 @@ end
 def player_stats(player)
   game = game_hash
   game.each do |location, t_c_p|
-    t_c_p.each do |
+    t_c_p.each do |key, value|
+      if key==:players
+        
   end
 end
