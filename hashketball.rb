@@ -224,5 +224,11 @@ def player_stats(name)
       if key==:players
         value.each do |player|
           if name==player[:player_name]
+            return player
+          end
+        end
+      end
+    end
+  end
   end
 end
