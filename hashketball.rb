@@ -235,6 +235,12 @@ def player_stats(name)
 def big_shoe_rebounds
   max = 0 
   rebounds=0 
+  game = game_hash
   
+  game.each do |location, t_c_p|
+    t_c_p.each do |key, value|
+      if key==
+    end
+  end
   
 end
