@@ -239,7 +239,7 @@ def big_shoe_rebounds
   
   game.each do |location, t_c_p|
     t_c_p[:players].each do |key, value|
-      
+      if player[:]
     end
   end
   
